@@ -1,6 +1,6 @@
 FROM scratch as caching-downloader
 
-ADD https://github.com/merbanan/rtl_433/archive/20.02.tar.gz /rtl_433.tar.gz
+ADD https://github.com/JonGilmore/rtl_433/archive/20.03.tar.gz /rtl_433.tar.gz
 ADD https://github.com/osmocom/rtl-sdr/archive/0.6.0.tar.gz /rtl_sdr.tar.gz
 
 FROM alpine:3.11 as builder
